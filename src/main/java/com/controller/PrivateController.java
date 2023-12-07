@@ -19,4 +19,9 @@ public class PrivateController {
         return "Hello World! from user private endpoint";
     }
 	
+	@GetMapping("/admin")
+    public String helloWorldAdminPrivate() {
+        return "Hello World! from user private endpoint";
+    }
+	
 }
