@@ -14,4 +14,9 @@ public class PrivateController {
     }
 
 	
+	@GetMapping("/user")
+    public String helloWorldUserPrivate() {
+        return "Hello World! from user private endpoint";
+    }
+	
 }
